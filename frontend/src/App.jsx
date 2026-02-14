@@ -65,6 +65,7 @@ function App() {
 
       if (videoRef.current) {
         videoRef.current.srcObject = stream;
+        await videoRef.current.play();
       }
 
       const ws = new WebSocket(WS_URL);
