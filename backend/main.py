@@ -19,7 +19,7 @@ app.add_middleware(
     allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
-)#setup is completed 
+)
 
 @app.get("/")
 def health():
@@ -33,6 +33,7 @@ QUESTIONS = [
     "How do you stay motivated when work is repetitive?",
     "How do you deal with failure or mistakes?",
     "What are your strengths?",
+    "tell me about your weaknesses.",
     "What is your biggest weakness?",
     "How do you manage stress?",
     "Why do you want this job?",
