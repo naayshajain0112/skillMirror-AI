@@ -24,12 +24,9 @@ app.add_middleware(
 @app.get("/")
 def health():
     return {"status": "Backend running 🚀"}
-
-# -------------------------
-# Interview questions
-# -------------------------
 QUESTIONS = [
-    "Tell me about yourself.",
+    "Tell me about yourself",
+    "why should we choose you?",
     "How do you handle pressure or tight deadlines?",
     "Where do you see yourself in 5 years?",
     "How do you handle criticism?",
