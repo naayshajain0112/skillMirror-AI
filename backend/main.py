@@ -8,10 +8,6 @@ import numpy as np
 
 import cv2
 import mediapipe as mp
-
-# -------------------------
-# App setup
-# -------------------------
 app = FastAPI()
 
 app.add_middleware(
